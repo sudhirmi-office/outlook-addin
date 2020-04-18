@@ -348,11 +348,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 if (__WEBPACK_IMPORTED_MODULE_3__environments_environment__["a" /* environment */].production) {
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["a" /* enableProdMode */])();
 }
-Office.initialize = function () {
-    var platform = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])();
-    platform.bootstrapModule(__WEBPACK_IMPORTED_MODULE_2__app_app_module__["a" /* AppModule */]);
-};
-// platformBrowserDynamic().bootstrapModule(AppModule);
+// declare const Office: any;
+// Office.initialize = function () {
+//   const platform = platformBrowserDynamic();
+//   platform.bootstrapModule(AppModule);
+// };
+__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_2__app_app_module__["a" /* AppModule */]);
 //# sourceMappingURL=main.js.map
 
 /***/ }),
